@@ -1,38 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1666041613834" clover="3.2.0">
-  <project timestamp="1666041613834" name="All files">
-    <metrics statements="29" coveredstatements="23" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="6" elements="44" coveredelements="37" complexity="0" loc="29" ncloc="29" packages="1" files="1" classes="1"/>
+<coverage generated="1666044382275" clover="3.2.0">
+  <project timestamp="1666044382275" name="All files">
+    <metrics statements="36" coveredstatements="30" conditionals="12" coveredconditionals="12" methods="9" coveredmethods="8" elements="57" coveredelements="50" complexity="0" loc="36" ncloc="36" packages="1" files="1" classes="1"/>
     <file name="LinkedList.js" path="/Users/samuelduval/Desktop/basic-linked-lists/LinkedList.js">
-      <metrics statements="29" coveredstatements="23" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="6"/>
-      <line num="3" count="9" type="stmt"/>
-      <line num="4" count="9" type="stmt"/>
-      <line num="8" count="23" type="stmt"/>
-      <line num="9" count="23" type="stmt"/>
-      <line num="10" count="23" type="stmt"/>
-      <line num="14" count="8" type="cond" truecount="4" falsecount="0"/>
-      <line num="15" count="4" type="stmt"/>
-      <line num="16" count="4" type="stmt"/>
-      <line num="17" count="5" type="stmt"/>
-      <line num="19" count="4" type="stmt"/>
+      <metrics statements="36" coveredstatements="30" conditionals="12" coveredconditionals="12" methods="9" coveredmethods="8"/>
+      <line num="3" count="14" type="stmt"/>
+      <line num="4" count="14" type="stmt"/>
+      <line num="8" count="37" type="stmt"/>
+      <line num="9" count="37" type="stmt"/>
+      <line num="10" count="37" type="stmt"/>
+      <line num="14" count="12" type="cond" truecount="4" falsecount="0"/>
+      <line num="15" count="6" type="stmt"/>
+      <line num="16" count="6" type="stmt"/>
+      <line num="17" count="7" type="stmt"/>
+      <line num="19" count="6" type="stmt"/>
       <line num="23" count="4" type="cond" truecount="2" falsecount="0"/>
       <line num="24" count="3" type="stmt"/>
       <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="27" count="1" type="stmt"/>
       <line num="28" count="1" type="stmt"/>
-      <line num="32" count="0" type="stmt"/>
-      <line num="33" count="0" type="stmt"/>
-      <line num="34" count="0" type="stmt"/>
-      <line num="35" count="0" type="stmt"/>
-      <line num="36" count="0" type="stmt"/>
-      <line num="38" count="0" type="stmt"/>
-      <line num="45" count="24" type="stmt"/>
-      <line num="46" count="24" type="stmt"/>
-      <line num="50" count="1" type="stmt"/>
-      <line num="51" count="8" type="stmt"/>
-      <line num="52" count="8" type="stmt"/>
-      <line num="53" count="20" type="stmt"/>
-      <line num="55" count="8" type="stmt"/>
-      <line num="58" count="1" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="33" count="2" type="stmt"/>
+      <line num="37" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="39" count="3" type="stmt"/>
+      <line num="40" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="47" count="0" type="stmt"/>
+      <line num="48" count="0" type="stmt"/>
+      <line num="49" count="0" type="stmt"/>
+      <line num="50" count="0" type="stmt"/>
+      <line num="51" count="0" type="stmt"/>
+      <line num="53" count="0" type="stmt"/>
+      <line num="60" count="38" type="stmt"/>
+      <line num="61" count="38" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="66" count="13" type="stmt"/>
+      <line num="67" count="13" type="stmt"/>
+      <line num="68" count="34" type="stmt"/>
+      <line num="70" count="13" type="stmt"/>
+      <line num="73" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
