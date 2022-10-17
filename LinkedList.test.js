@@ -48,14 +48,14 @@ describe('#insert at index', () => {
     describe('with index less than 0', () => {
         test('it does not insert anything', () => {
             const ll = LinkedList.fromValues(10,20)
-            jll.insertAtIndex(-1, 30)
+            ll.insertAtIndex(-1, 30)
             expect(ll.length).toBe(2)
         })
     })
     describe('with index greater than list length', () => {
         test('it does not insert anything', () => {
             const ll = LinkedList.fromValues(10,20)
-            jll.insertAtIndex(5, 30)
+            ll.insertAtIndex(5, 30)
             expect(ll.length).toBe(2)
         })
     })
@@ -63,7 +63,7 @@ describe('#insert at index', () => {
     describe('with index 0', () => {
         test('it does not insert anything', () => {
             const ll = LinkedList.fromValues(10,20)
-            jll.insertAtIndex(0, 30)
+            ll.insertAtIndex(0, 30)
             expect(ll.head.value).toBe(30)
             expect(ll.head.next.value).toBe(10)
             expect(ll.length).toBe(3)
@@ -78,7 +78,7 @@ describe('#insert at index', () => {
 
             expect(node.value).toBe(50)
             expect(node.next.value).toBe(30)
-            expect(ll.length).toBe(3)
+            expect(ll.length).toBe(5)
         })
     })
 })
